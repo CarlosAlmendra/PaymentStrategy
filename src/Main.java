@@ -8,9 +8,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         PaymentProcessor paymentProcessor = new PaymentProcessor();
 
-        System.out.print("Selecione um meio de pagamento:\n1- PIX\n2- CARTAO DE CRÉDITO\n3- BOLETO\nR:");
+        System.out.print("Select payment method:\n1- PIX\n2- CARTAO DE CRÉDITO\n3- BOLETO\nR:");
         Integer option = sc.nextInt();
-        System.out.print("\nDigite o valor da transação: \nR:");
+        System.out.print("\nEnter the transaction amount:: \nR:");
         Double value = sc.nextDouble();
 
         paymentProcessor.selectPaymentStrategy(option, value);
