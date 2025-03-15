@@ -47,7 +47,8 @@ método de pagamento e inserir o valor da transação.
 transação.
 
 # Critérios de Avaliação
-```✅ Uso correto do Strategy Pattern.
+```
+✅ Uso correto do Strategy Pattern.
 ✅ Código modular e reutilizável.
 ✅ Interação funcional via terminal.
 ✅ Facilidade para adicionar novos métodos de pagamento sem alterar código
