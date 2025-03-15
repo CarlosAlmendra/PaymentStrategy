@@ -41,10 +41,10 @@ Exemplo de Fluxo Esperado
 transação.
 
 # Critérios de Avaliação
-```✅Uso correto do Strategy Pattern.
-✅Código modular e reutilizável.
-✅Interação funcional via terminal.
-✅Facilidade para adicionar novos métodos de pagamento sem alterar código
+```✅ Uso correto do Strategy Pattern.
+✅ Código modular e reutilizável.
+✅ Interação funcional via terminal.
+✅ Facilidade para adicionar novos métodos de pagamento sem alterar código
 existente.
 ```
 
