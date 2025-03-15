@@ -49,8 +49,8 @@ existente.
 ```
 
 # Dicas
-• Utilize o conceito de interface e polimorfismo para evitar condicionais
-desnecessárias.
-• Teste cada método de pagamento individualmente para garantir que o programa
-funcione corretamente.
+• Utilize o conceito de interface e polimorfismo para 
+evitar condicionais desnecessárias. \n
+• Teste cada método de pagamento individualmente para 
+garantir que o programa funcione corretamente.
 • Comente seu código explicando a lógica utilizada.
