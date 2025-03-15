@@ -18,7 +18,14 @@ public class PaymentProcessor {
     public PaymentProcessor() {}
 
     public void selectPaymentStrategy(Integer option, Double value) {
-        mapStrategy.get(option).processPayment(value);
+        PaymentStrategy strategy = mapStrategy.get(option);
+
+        if (strategy == null) {
+            System.out.println("\nInvalid option. Please select a valid payment method.");
+            return;
+        }
+
+        strategy.processPayment(value);
     }
 
 }

@@ -15,6 +15,5 @@ public class CreditCardPayment implements PaymentStrategy {
         System.out.print("\nType credit card number: ");
         sc.next();
         System.out.print("\nCredit card payment was successful, $" + amount + ".");
-        sc.close();
     }
 }

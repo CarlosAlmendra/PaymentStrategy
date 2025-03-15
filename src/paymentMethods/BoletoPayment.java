@@ -11,6 +11,6 @@ public class BoletoPayment implements PaymentStrategy {
 
     @Override
     public void processPayment(double amount) {
-        System.out.println("\nBoleto payment has been processed: " + randomUtils.getAleatoryNumber(8));
+        System.out.println("\nBoleto payment has been processed: " + randomUtils.getRandomNumber(8));
     }
 }

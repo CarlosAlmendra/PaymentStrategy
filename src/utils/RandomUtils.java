@@ -6,7 +6,7 @@ public class RandomUtils {
 
     public RandomUtils(){}
 
-    public Integer getAleatoryNumber(Integer size) {
+    public Integer getRandomNumber(Integer size) {
         Random rand = new Random();
 
         if (size == null || size < 1 || size > 9) {

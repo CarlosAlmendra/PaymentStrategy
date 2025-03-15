@@ -11,6 +11,6 @@ public class PixPayment implements PaymentStrategy {
 
     @Override
     public void processPayment(double amount) {
-        System.out.println("\nPixPayment called, code: " + randomUtils.getAleatoryNumber(8));
+        System.out.println("\nPixPayment called, code: " + randomUtils.getRandomNumber(8));
     }
 }
