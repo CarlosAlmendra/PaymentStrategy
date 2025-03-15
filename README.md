@@ -30,7 +30,8 @@ Exemplo de Fluxo Esperado
 ```1. O sistema exibe as opções de pagamento:
   a. 1: Pix
   b. 2: Cartão de Crédito
-  c. 3: Boleto```
+  c. 3: Boleto
+```
 
 2. O usuário seleciona uma opção digitando o número correspondente.
    
