@@ -15,15 +15,18 @@ adicionados sem modificar o código existente.
 processPayment(double amount).
 
 3. Implementar três classes que representam diferentes métodos de pagamento:
+
   a. PixPayment: Exibe um código aleatório de Pix.
+
   b. CreditCardPayment: Solicita um número fictício de cartão e confirma o
   pagamento.
+
   c. BoletoPayment: Exibe um código de boleto fictício.
 
-4. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
+5. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
 a executa.
 
-5. Criar uma classe Main que exiba um menu no terminal para o usuário escolher o
+6. Criar uma classe Main que exiba um menu no terminal para o usuário escolher o
 método de pagamento e inserir o valor da transação.
 
 # Exemplo de Fluxo Esperado
