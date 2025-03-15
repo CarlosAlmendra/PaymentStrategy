@@ -16,12 +16,12 @@ processPayment(double amount).
 
 3. Implementar três classes que representam diferentes métodos de pagamento:
 
-  a. PixPayment: Exibe um código aleatório de Pix.
+    a. PixPayment: Exibe um código aleatório de Pix.
 
-  b. CreditCardPayment: Solicita um número fictício de cartão e confirma o
-  pagamento.
+    b. CreditCardPayment: Solicita um número fictício de cartão e confirma o
+    pagamento.
 
-  c. BoletoPayment: Exibe um código de boleto fictício.
+    c. BoletoPayment: Exibe um código de boleto fictício.
 
 5. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
 a executa.
