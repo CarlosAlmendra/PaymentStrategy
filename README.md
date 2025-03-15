@@ -22,7 +22,7 @@ processPayment(double amount).
     pagamento.
 
     c. BoletoPayment: Exibe um código de boleto fictício.
-```
+    ```
 
 5. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
 a executa.
