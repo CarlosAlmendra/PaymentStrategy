@@ -14,7 +14,7 @@ adicionados sem modificar o código existente.
 1. Criar uma interface chamada PaymentStrategy com um método
 processPayment(double amount).
 
-3. Implementar três classes que representam diferentes métodos de pagamento:
+2. Implementar três classes que representam diferentes métodos de pagamento:
 
     ```
     a. PixPayment: Exibe um código aleatório de Pix.
@@ -25,14 +25,15 @@ processPayment(double amount).
     c. BoletoPayment: Exibe um código de boleto fictício.
     ```
 
-5. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
+3. Criar uma classe PaymentProcessor que recebe uma estratégia de pagamento e
 a executa.
 
-6. Criar uma classe Main que exiba um menu no terminal para o usuário escolher o
+4. Criar uma classe Main que exiba um menu no terminal para o usuário escolher o
 método de pagamento e inserir o valor da transação.
 
 # Exemplo de Fluxo Esperado
-```1. O sistema exibe as opções de pagamento:
+1. O sistema exibe as opções de pagamento:
+```
   a. 1: Pix
   b. 2: Cartão de Crédito
   c. 3: Boleto
