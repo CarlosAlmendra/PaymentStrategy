@@ -16,7 +16,8 @@ processPayment(double amount).
 
 3. Implementar três classes que representam diferentes métodos de pagamento:
 
-    ```a. PixPayment: Exibe um código aleatório de Pix.
+    ```
+    a. PixPayment: Exibe um código aleatório de Pix.
 
     b. CreditCardPayment: Solicita um número fictício de cartão e confirma o
     pagamento.
